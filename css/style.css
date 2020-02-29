@@ -1,0 +1,90 @@
+header{
+    background-color: rgb(82, 81, 81);
+    color: #DDDDDD;
+    height: 100px;
+    width: 100%;
+}
+
+header img:first-child{
+    float: left;
+    padding-top: .75%;
+    padding-left: 25%;
+}
+
+ul{
+
+}
+
+li:first-child{
+    padding-left: 2%;
+}
+
+li{
+    display: inline-block;
+    padding-right: 4%;
+    padding-top: 2.1%;
+}
+
+body{
+    /* text-align: center; */
+}
+
+main{
+    text-align: center;
+    width: 960px;
+    padding-left: 25%;
+    margin-top: 2%;
+}
+main section:nth-child(2){
+    margin-top: 3%;
+    
+}
+
+main section:nth-child(2) img:nth-child(2){
+    margin-right: 26px;
+    margin-left: 26px;
+}
+
+main section:nth-child(3){
+
+    margin-top: 3%;
+    height: 400px;
+}
+
+
+div:nth-child(1){
+    display: inline-block;
+    float: left;
+}
+div:nth-child(2){
+    width: 45%;
+    float: right;
+    overflow-y:scroll;
+    height:344px;
+    text-align: initial;
+    font-style: italic;
+    line-height: 125%;
+}
+
+h2{
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+    padding-bottom: 2%;
+}
+
+button{
+    margin-top: 2.3%;
+    float: left;
+    margin-left: 5%;
+    padding: 0.8% 3%;
+    background-color: black;
+    color: #dddddd;
+    /* margin-right: 30%; */
+}
+
+footer{
+    background-color: rgb(82, 81, 81);
+    height: 100px;
+    margin-top: 3%;
+}
